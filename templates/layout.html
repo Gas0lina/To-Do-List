@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="device-width, initial-scale=1">
+        {% if title%}
+            <title>To Do list - {{ title }}</title>
+        {% endif %}
+
+        <meta name="author" content="Yogesh Nayaka">
+        <meta name="description" content="To Do List with FastAPI">
+        <link href="../static/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        {% block content %}
+        {% endblock content%}
+    </body>
+</html>

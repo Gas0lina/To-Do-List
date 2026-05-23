@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Focus</title>
+        <meta name="author" content="Yogesh Nayaka"/>
+        <meta name="description" content="FastAPI website"/>
+    </head>
+    <body>
+        <div class="main">
+            <!--Title-->
+            <nav class="nav-bar">
+                <h2>Focus</h2>
+                <p>Sat, 23 May</p>
+            </nav>
+
+            <!--Status/Progress bar-->
+            <div class="status-bar">
+                <div class="total-status status-block">
+                    <div class="status-count">6</div>
+                    <div class="status-name">Total</div>
+                </div>
+                <div class="completed-status status-block">
+                    <div class="status-count">6</div>
+                    <div class="status-name">Done</div>
+                </div>
+                <div class="incomplete-status status-block">
+                    <div class="status-count">6</div>
+                    <div class="status-name">Left</div>
+                </div>
+            </div>
+
+            <!--Add Goal-->
+            <div class="input-goal">
+                <input type="text" id="input-text" placeholder="Add a goal or task">
+                <select id="priority">
+                    <option value="low">Low</option>
+                    <option value="medium">Mediun</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
+
+            <!--Sort buttons-->
+            <div class="filter">
+                <button id="chip activate">All</button>
+                <button id="chip">Active</button>
+                <button id="chip">Done</button>
+                <button id="chip">High</button>
+                <button id="chip">Medium</button>
+                <button id="chip">Low</button>
+            </div>
+
+            <!--Task List-->
+            <div class="task-list">
+                
+            </div>
+        </div>
+    </body>
+</html>
