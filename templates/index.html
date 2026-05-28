@@ -6,6 +6,7 @@
         <title>Focus</title>
         <meta name="author" content="Yogesh Nayaka"/>
         <meta name="description" content="FastAPI website"/>
+        <link rel="stylesheet" href="../static/style.css" type="text/css"/>
     </head>
     <body>
         <div class="main">
@@ -43,17 +44,18 @@
 
             <!--Sort buttons-->
             <div class="filter">
-                <button id="chip activate">All</button>
-                <button id="chip">Active</button>
-                <button id="chip">Done</button>
-                <button id="chip">High</button>
-                <button id="chip">Medium</button>
-                <button id="chip">Low</button>
+                <button class="chip activate">All</button>
+                <button class="chip">Active</button>
+                <button class="chip">Done</button>
+                <div class="horizontal-line"></div>
+                <button class="chip">High</button>
+                <button class="chip">Medium</button>
+                <button class="chip">Low</button>
             </div>
 
             <!--Task List-->
             <div class="task-list">
-                
+                <p class="list-heading">List</p>
             </div>
         </div>
     </body>
